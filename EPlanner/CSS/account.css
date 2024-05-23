@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary_white:#fff;
+    --primary_black: #1c1c1c;
+    --primary_pink:rgba(235, 51, 106, 0.719);
+}
+
+/* main container */
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left_section{
+    padding: 10px;
+    flex: 0 0 60%;
+    height: 100%;
+    border: 2px solid blue;
+}
+
+#logoText{
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+}
+
+#events_div{
+    margin-top: 50px;
+}
+
+
+.left_section span{
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid var(--primary_pink);
+    border-radius: 50px;
+    justify-content: space-around;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.left_section span textarea{
+    outline: none;
+    resize: none;
+}
+
+
+
+
+
+
+
